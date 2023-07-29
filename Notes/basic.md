@@ -2,7 +2,8 @@
 - 目录：  
     - [print](#print)  
     - [list and tuple](#list-and-tuple)
-
+    - [set](#set函数)
+    - [try](#try)
 ## print
 ### 1、print的函数语法
 ```
@@ -33,7 +34,7 @@ foramt 把参数按位置顺序填充到字符串中，第一个参数是0，然
 也可以不输入数字，这样也会按顺序来填充。  
 同一个参数可以填充多次，这个是 format 比 % 先进的地方
 
-## list and tuple
+## list
 ### List
 #### 索引
 可通过下标索引```list[0]```或```list[0:4]```
@@ -100,16 +101,16 @@ foramt 把参数按位置顺序填充到字符串中，第一个参数是0，然
 查询对应元素是否在list里  
 ```print('2' in nums, '2' not in nums)  return Ture or False```
 
-### set函数
+## set函数
 创建一个集合
-#### 符号操作
+### 符号操作
 ```
   print(A | B)  # 并集
   print(A - B)  # 差集
   print(A & B)  # 交集
   print(A ^ B)  # 补集
 ```
-#### 方法
+### 方法
 1. dfference  
 返回集合中的差集
 ```value = A.difference(B)```
@@ -142,5 +143,10 @@ foramt 把参数按位置顺序填充到字符串中，第一个参数是0，然
 判断两个集合是否含有相同的元素，没有返回Ture，反之返回False
 ```A.isdisjoint(B)```
 
-
-1. symmetric_difference（）
+## try
+```
+try:
+    语句块1
+except 异常类型:
+    语句块2
+```
