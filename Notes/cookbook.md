@@ -1,9 +1,6 @@
 # cookbook
 - 目录：  
     - [c01](#c01)  
-    - [list and tuple](#list-and-tuple)
-    - [set](#set函数)
-    - [try](#try)
 
 ## c01
 1. 将序列(list或tuple)解包为单独的序列  
